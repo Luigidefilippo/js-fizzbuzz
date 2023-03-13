@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #083b4c;
+    text-align: center;
+    color: white;
+    font-size: 2.6rem;
+}
+.container{
+    width: 1000px;
+    margin: 20px auto;
+    background-color: #083b4c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 4px;
+}
+.box{
+    width: 95px;
+    height: 90px;
+    background-color: aquamarine;
+    color: white;
+    border: 2px solid wheat;
+}
+.fizz{
+    background-color: red;
+}
+.buzz{
+    background-color: blueviolet;
+}
+.fizz-buzz{
+    background-color: chartreuse;
+}
+
+
+
+
